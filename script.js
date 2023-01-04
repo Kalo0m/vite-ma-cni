@@ -25,7 +25,7 @@ const checkPage = async () => {
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
         const btn = document.querySelectorAll(".btn-nantes")[1];
-        // btn.click();
+        btn.click();
         clearInterval(interval);
         return;
       }
